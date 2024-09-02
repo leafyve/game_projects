@@ -1,0 +1,15 @@
+# Prompt the user for inputs
+hours= input("What were the hours in the video?\n")
+hours = int(hours) * 3600  # Convert hours to seconds
+
+minutes = input("What were the minutes in the video?\n")
+minutes = int(minutes) * 60  # Convert minutes to seconds
+
+seconds = input("What were the seconds in the video?\n")
+seconds = int(seconds)  # No conversion needed for seconds
+
+# Calculate total seconds
+total_seconds = hours + minutes + seconds
+
+# Print the result
+print("The total duration of the video in seconds is:", total_seconds)
