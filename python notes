@@ -1,0 +1,145 @@
+#friends = [" "]
+#friends[0] = input("New friend:")
+#print(friends)
+
+# secret_word = "bob" #variables
+# guess = " " #variables
+# guess_count = 0 #variables
+#
+# while guess != secret_word:
+#     guess = input(" Guess again: ")
+#     guess_count += 1 #adding to the guess count everytime
+#     if guess_count > 3:
+#         print("You have lost")
+#         quit()
+# if guess == secret_word:
+#    print("You won!")
+
+# friends = ["Jim", "Kar", "Bob", "Jim"]
+#
+# for index in range(len(friends)):
+#     print(friends[index])
+
+# def raise_the_power(input_basenum, input_basepower):
+#     result = 1
+#     for index in range(input_basepower):
+#         result = result * input_basenum
+#     return result
+#
+# input_basenum = int(input("Enter base value: "))
+# input_basepower = int(input("Enter power value: "))
+#
+# print(raise_the_power(input_basenum,input_basepower))
+# not sure how again to receive user input
+# will check back again on how to make
+# it more user interacty
+#edited, soln is to ensure user input is convert to int
+#by placing int() in fron of the input instead of
+#behind it
+
+#vowels = "aeiou"
+
+# def translation(phrase):
+#     translation = " "
+#     for letter in phrase:
+#        if letter.lower() in vowels:
+#          if letter.isupper():
+#            translation = translation + "G"
+#          else:
+#            translation = translation + "g"
+#
+#        else:
+#            translation = translation + letter
+#     return translation
+
+# print(translation(input("Enter")))
+#exercise is teaching how to change letters with translator function
+#things to note are: for in function, def return fun
+# letter is just the variable name we chose to
+# represent each item in whatever the loop is iterating through
+# simply the name we chose for our loop variable.
+
+# part 26: try/except:
+# try:
+#     number = int(input("Enter number: "))
+#     print(number)
+#
+# except ZeroDivisionError:
+#     print("Divided by 0")
+# except ValueError:
+#     print("Invalid input")
+#recapping of int
+#showing try and except function
+#learning of zerodivision error and value error function
+
+# part 27: reading files
+# employee_file = open("blackjack notes", "r")
+# #r = read # a = append(adding things to the file)
+# #r+ = read and write w = write
+#
+# print(employee_file.readlines())
+# employee_file.close()
+# for employee in employee_file.readlines(): can use for loop to go through
+# each lines
+# .read() read everything
+# .readable() showing if the function/code above has been set to r
+# will show false if its in w
+# .realines() will put them in a list
+
+# part 28: writing to files
+# employee_file = open("blackjack notes1.txt", "w")
+# #just change the name of the open file to makme a new txt file
+# employee_file.write("\nShesh") # note:\n when adding new lines ot not
+# #mess up the lines
+# # w will be for overwrite everything in the file to note
+# employee_file.close()
+
+# part 29: modules - python files that we can import into our current
+# python file which includes all the variables and
+# functions
+# 2 types of modules built in modules,external modules
+
+# part 30: import docx and pip
+# talks about the importance of modules how to
+# import them and install them using
+# pip install, can search on google for different\
+# modules, however encounter error when installing
+# the pip into python, assumption is that it got
+# installed to the python module itself and not the
+# pycharm IDE, so cannot access the docx module
+# resolved by clicking the function to install below
+# on the pychamp IDE itself, to KIV and note
+# the next time if importing any other modules for
+# future projects
+
+# part 31: classes and objects
+# teaches about creating a new data type commonly
+# referred to as classes
+
+# class Student:
+#
+#     def __init__(self, name, major, gpa, is_on_probation): # what values will represent a student, attributes
+#         self.name = name
+#         self.major = major
+#         self.gpa = gpa
+#         self.is_on_probation = is_on_probation
+        # the name of the student equal to the name that we passed in
+
+#object: is the actual student
+# model real world objects and create our own data types
+
+# part 32: building multiple choice qns
+# class questions:
+#     def __init__(self, prompt, answer):
+#         self.prompt = prompt
+#         self.answer = answer
+
+# part 33: inheritance
+# class Chef import Chef
+# from ChineseChef(Chef):
+# talks about taking other class functions without
+# copy and pasting
+
+# part 34: python intepreter
+# using cmd to write codes
+# not really useful
